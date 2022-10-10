@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Modull_2.iml" filepath="$PROJECT_DIR$/.idea/Modull_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThucHanh051022/ThucHanh051022.iml" filepath="$PROJECT_DIR$/ThucHanh051022/ThucHanh051022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thuchanh071022/Thuchanh071022.iml" filepath="$PROJECT_DIR$/Thuchanh071022/Thuchanh071022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thuchanh081022/Thuchanh081022.iml" filepath="$PROJECT_DIR$/Thuchanh081022/Thuchanh081022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thuchanh101022/Thuchanh101022.iml" filepath="$PROJECT_DIR$/Thuchanh101022/Thuchanh101022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thuchanh061022/thuchanh061022.iml" filepath="$PROJECT_DIR$/thuchanh061022/thuchanh061022.iml" />
+    </modules>
+  </component>
+</project>
