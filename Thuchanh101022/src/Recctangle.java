@@ -8,6 +8,7 @@ public class Recctangle {
         this.width=width;
         this.height=height;
     }
+
     public double getPrimeter(){
         return (this.height+this.width)*2;
     }

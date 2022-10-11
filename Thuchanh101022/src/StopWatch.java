@@ -1,7 +1,5 @@
-import org.omg.CORBA.PRIVATE_MEMBER;
-
 public class StopWatch {
-    private long starTime = 0;
+    private long starTime ;
     private long stopTime = 0;
     public StopWatch(){
         starTime = System.currentTimeMillis();
@@ -21,7 +19,7 @@ public class StopWatch {
        return  ((double)(stopTime-starTime))/1000;
     }
 
-    public static void m2ain(String[] args) {
+    public static void main(String[] args) {
         StopWatch watch = new StopWatch();
         int[] arr = new int[100000];
         for (int i=0;i<arr.length;i++){
