@@ -9,10 +9,12 @@ public class Student {
         this.rollno = rollno;
         this.name = name;
     }
-    static void change(){
-        college = "CODEGYM";
+    static void change(String text){
+        college = text;
     }
-    void display (){
+    protected void display (){
         System.out.println(rollno+" "+name+" "+college);
     }
 }
+
+
