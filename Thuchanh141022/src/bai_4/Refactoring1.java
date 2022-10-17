@@ -2,10 +2,10 @@ package bai_4;
 
 public class Refactoring1 {
     static String score = "";
-    public String getScore(String player1Name, String player2Name, int play1_score, int play2_score) {
-        if (play1_score==play2_score)
+    public String getScore(String player1Name, String player2Name, int play1Score, int play2Score) {
+        if (play1Score==play2Score)
         {
-            switch (play1_score)
+            switch (play1Score)
             {
                 case 0:
                     score = "Love-All";
@@ -25,13 +25,13 @@ public class Refactoring1 {
 
             }
         }
-        else if (play1_score>=4 || play2_score>=4)
+        else if (play1Score>=4 || play2Score>=4)
         {
-            checkWin(play1_score, play2_score);
+            checkWin(play1Score, play2Score);
         }
         else
         {
-          check(play1_score, play2_score);
+          check(play1Score, play2Score);
         }
         return score;
     }
@@ -55,7 +55,7 @@ public class Refactoring1 {
         for (int i=1; i<3; i++)
         {
             if (i==1) tempScore = play1_score;
-            else { score+="-";
+            else { score +="-";
                 tempScore = play2_score;}
             switch(tempScore)
             {
