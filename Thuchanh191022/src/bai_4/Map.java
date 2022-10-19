@@ -1,13 +1,12 @@
 package bai_4;
 
-import java.util.Map;
 import java.util.TreeMap;
 
-public class Main {
+public class Map {
     public static void main(String[] args) {
         String text = "programming";
         String[] arr = text.split("");
-        Map<String, Integer> map = new TreeMap<>();
+        java.util.Map<String, Integer> map = new TreeMap<>();
         for (int i = 0; i <arr.length ; i++) {
             if(map.isEmpty()){
                 map.put(arr[i], 1);
