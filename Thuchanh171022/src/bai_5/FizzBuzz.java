@@ -1,6 +1,8 @@
 package bai_5;
 
 public class FizzBuzz {
+    public static final int THREE = 3;
+    public static final int FIVE = 5;
     public static int soHangChuc;
     public static int soDonVi;
     public static void checkNum(int number){
@@ -58,21 +60,21 @@ public class FizzBuzz {
         return text;
     }
     public static boolean isNumDivisibleThree(int num) {
-        return (num % 3 == 0);
+        return (num % THREE == 0);
     }
     public static boolean isNumDivisibleFive(int num) {
-        return (num % 5 == 0);
+        return (num % FIVE == 0);
     }
     public static boolean numContainThree(int num) {
         checkNum(num);
-        if(soDonVi == 3 || soHangChuc == 3){
+        if(soDonVi == THREE || soHangChuc == THREE){
             return true;
         }
         return false;
     }
     public static boolean numContainFive(int num) {
         checkNum(num);
-        if(soDonVi == 5 || soHangChuc == 5){
+        if(soDonVi == FIVE || soHangChuc == FIVE){
             return true;
         }
         return false;
