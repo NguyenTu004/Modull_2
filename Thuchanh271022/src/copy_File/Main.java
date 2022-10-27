@@ -14,11 +14,15 @@ public class Main {
         try {
             is = new FileInputStream(source);
             os = new FileOutputStream(dest);
+            ObjectOutputStream oos = new ObjectOutputStream(os);
+            ObjectInputStream ois = new ObjectInputStream(is);
             byte[] buffer = new byte[1024];
             int length;
-            while ((length = is.read(buffer)) > 0) {
-                os.write(buffer, 0, length);
+            while ((length = ois.read(buffer)) > 0) {
+                oos.write(buffer, 0, length);
             }
+            oos.close();
+            ois.close();
         }finally {
             is.close();
             os.close();
